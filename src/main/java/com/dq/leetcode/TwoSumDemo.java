@@ -1,7 +1,5 @@
 package com.dq.leetcode;
 
-import java.util.LinkedList;
-
 /**
  * @author daquan
  * @date 2020-01-31 22:34:53

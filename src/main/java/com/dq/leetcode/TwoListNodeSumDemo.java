@@ -1,6 +1,6 @@
 package com.dq.leetcode;
 
-import com.lqq.entity.ListNode;
+import com.dq.entity.ListNode;
 
 /**
  * @author daquan
