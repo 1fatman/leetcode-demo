@@ -11,8 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class QuickSort {
 
-    private static int count;
-
     public static final void quickSort(int[] num, int left, int right) {
         //如果left等于right，即数组只有一个元素，直接返回
         if (left >= right) {
@@ -41,7 +39,6 @@ public class QuickSort {
         }
         num[left] = num[i];
         num[i] = key;
-        count++;
         quickSort(num, left, i - 1);
         quickSort(num, i + 1, right);
 
