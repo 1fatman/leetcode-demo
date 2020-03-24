@@ -56,9 +56,9 @@ public class DataStructureDemo {
          */
         Vector<String> vector = new Vector<>(16);
         // capacity() 返回该向量的当前容量 16
-         System.out.println(vector.capacity());
+        System.out.println(vector.capacity());
 
-         /**
+        /**
          * 栈（Stack）
          * 是Vector的一个子类，实现了标准的后进先出的栈
          */
@@ -84,5 +84,13 @@ public class DataStructureDemo {
          * Properties类
          * 继承于Hashtable
          */
+
+
+        /**
+         * Integer(int)的最大值和最小值
+         */
+        int maxValue = Integer.MAX_VALUE;
+        int minValue = Integer.MIN_VALUE;
+        System.out.println("max:" + maxValue + "min:" + minValue);
     }
 }
