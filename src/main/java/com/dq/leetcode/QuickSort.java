@@ -1,14 +1,11 @@
 package com.dq.leetcode;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * @author daquan
  * @version V1.0
  * @date 2020/3/24
  * @Description: TODO 快排
  */
-@Slf4j
 public class QuickSort {
 
     public static final void quickSort(int[] num, int left, int right) {
