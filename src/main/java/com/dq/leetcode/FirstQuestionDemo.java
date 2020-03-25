@@ -25,6 +25,11 @@ import java.util.Stack;
  */
 public class FirstQuestionDemo {
 
+    /**
+     * 没做出来 Copy的 我giao
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         List<List<String>> accounts = new ArrayList<>();
